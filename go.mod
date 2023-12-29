@@ -153,3 +153,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/ava-labs/coreth => ../coreth
+
+require github.com/Mamoru-Foundation/mamoru-sniffer-go v0.10.3 // indirect
